@@ -1,0 +1,40 @@
+.skills {
+    padding: 4rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .list {
+    list-style: none;
+    padding: 20px;
+    width: 60%;
+}
+
+.skills h2 {
+    padding: 20px;
+    color: white;
+}
+
+.list th {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        text-align: center;
+    }
+    
+    .list {
+        padding: 20px;
+    }
+
+    .skills h2 {
+        font-size: 30px;
+    }
+}
